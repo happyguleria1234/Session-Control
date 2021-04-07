@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4df-yT-Sa8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_transparent_white" translatesAutoresizingMaskIntoConstraints="NO" id="kdb-06-wkB">
+                                <rect key="frame" x="80" y="180" width="160" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kdb-06-wkB" secondAttribute="height" multiplier="437:329" id="92U-fS-noi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2021 DharmaniApps. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="64" y="439.5" width="192" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kdb-06-wkB" firstAttribute="centerY" secondItem="4df-yT-Sa8" secondAttribute="centerY" id="01E-8X-dB0"/>
+                            <constraint firstAttribute="bottom" secondItem="4df-yT-Sa8" secondAttribute="bottom" id="1sR-uk-1el"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstAttribute="trailing" secondItem="4df-yT-Sa8" secondAttribute="trailing" id="8MZ-5q-2Rc"/>
+                            <constraint firstItem="kdb-06-wkB" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="J4I-E6-hal"/>
+                            <constraint firstItem="kdb-06-wkB" firstAttribute="centerX" secondItem="4df-yT-Sa8" secondAttribute="centerX" id="MVW-zD-Nzo"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="4df-yT-Sa8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hyz-QD-Ha9"/>
+                            <constraint firstItem="4df-yT-Sa8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="jUT-aX-KMd"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="width" secondItem="Bcu-3y-fUS" secondAttribute="width" multiplier="0.6" id="tTm-St-fKe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="640" height="1573"/>
+        <image name="logo_transparent_white" width="437" height="329"/>
+    </resources>
+</document>

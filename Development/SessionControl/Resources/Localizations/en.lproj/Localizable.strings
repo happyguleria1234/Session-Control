@@ -1,0 +1,127 @@
+/* 
+  Localizable.strings
+  TracksFinder
+
+  Created by Dharmesh Avaiya on 2/9/21.
+  Copyright © 2021 dharmesh. All rights reserved.
+*/
+
+//Backend Errors
+"error_0" = "Something went wrong, Please try after sometimes.";
+"error_101" = "Email address is empty.";
+"error_102" = "Password is empty.";
+"error_103" = "Device token can not be blank.";
+"error_104" = "User access token is empty.";
+"error_105" = "Your session has been expired due to the security concerns, Please signing again to continue to the application.";
+"error_106" = "Your account is currently disabled.";
+"error_107" = "This email address is already registered with us.";
+"error_108" = "Please verify your account first by clicking the activation link that has been send to your email.";
+"error_109" = "This email is not registered with us.";
+"error_110" = "Current password is not same as new password.";
+"error_111" = "Current password is not correct.";
+"error_112" = "The email address does not match the email associated with your RSS feed. Please try again.";
+"error_113" = "Facebook token can not be blank.";
+"error_115" = "Apple token can not be blank.";
+"error_116" = "Google token can not be blank.";
+"error_117" = "We are unable to process your request currently, Please try after sometimes.";
+"error_118" = "You have entered incorrect password.";
+"error_401" = "Email and password not correct";
+"error_404" = "No data found";
+"error_503" = "We are unable to insert it.";
+"error_504" = "Failed to update";
+"error_505" = "Failed to signup";
+"error_506" = "We are unable to send code again to you at the moment, Please try again later.";
+"error_511" = "We are unable to send an email at this moment, Please try again later.";
+"in_progress" = "In progress";
+
+//dilogue buttons
+"alert_button_ok" = "Ok";
+"alert_button_cancel" = "Cancel";
+"alert_button_save" = "Save";
+"alert_button_no" = "No";
+"alert_button_yes" = "Yes";
+"sheet_button_camera" = "Camera";
+"sheet_button_photo_library" = "Photo Library";
+
+//messages
+"enter_first_name" = "Please enter first name.";
+"enter_last_name" = "Please enter last name.";
+"select_birth_date" = "Please select birthdate.";
+"select_gender" = "Please select gender.";
+"enter_mobile" = "Please enter mobile number.";
+"enter_valid_mobile" = "Please enter valid mobile number.";
+"enter_email" = "Please enter email address.";
+"enter_valid_email" = "Please enter valid email address.";
+"enter_password" = "Please enter password.";
+"enter_valid_password" = "Please enter valid password. Password should contain at least 8 characters, with at least 1 letter and 1 special character.";
+"enter_new_password" = "Please enter new password.";
+"enter_valid_new_password" = "Please enter valid new password. Password should contain at least 8 characters, with at least 1 letter and 1 special character.";
+"verification_mail_sent" = "Your account has been made, please verify it by clicking the activation link that has been send to your email.";
+"enter_retype_password" = "Please enter retype password.";
+"enter_valid_retype_password" = "Please enter valid retype password. Password should contain at least 8 characters, with at least 1 letter and 1 special character.";
+"old_new_password_not_same" = "The old and new password must not be the same.";
+"new_retype_password_not_match" = "The new and re-typed passwords do not match.";
+"enter_name" = "Please enter name.";
+"select_add_request_photo" = "Please select photo which you would like to add into the tracking detection.";
+
+//success
+"verification_mail_sent" = "Your account has been made, please verify it by clicking the activation link that has been send to your email.";
+"mail_not_verified_yet" = "Your email address is not verified yet, Please verify it to continue to the application. Do you wants to resent verification link again?";
+"new_password_sent" = "New password sent successfully";
+"profile_updated" = "You have updated your information successfully.";
+"password_changed" = "You have successfully changed your password.";
+"add_request_sent" = "You have sent request successfully, You will get notify once after admin take an action on it.";
+
+//request status
+"requests" = "Requests";
+"pending" = "Pending";
+"approved" = "Approved";
+"declined" = "Declined";
+
+//pages
+"pull_more" = "Pull more";
+"release_to_refresh" = "Release to refresh";
+"updating" = "Updating...";
+
+//requests list, add requests
+"add_request" = "Add Request";
+"no_requested_entry_found" = "You didn't made any request to add animal track into the app. Please click on top right \'+\' to add track request.";
+"edit_profile" = "Edit Profile";
+
+//saved tracks
+"saved_tracks" = "Saved Tracks";
+"no_saved_tracks_entry_found" = "No track records found.";
+
+//notifications
+"notifications" = "Notifications";
+"no_notifications_entry_found" = "No any notifications found.";
+
+//confirmation messages
+"confirm_logout" = "Are you sure, You want to logout?";
+
+//profile
+"account_information" = "Account Information";
+"payment_method" = "Payment Methods";
+"change_password" = "Change Password";
+"allow_location" = "Allow Location";
+"allow_notification" = "Allow Notification";
+"switch_to_studio" = "Switch to Studio Profile";
+"switch_to_artist" = "Switch to Artist Profile";
+"terms_and_condition" = "Terms & Conditions";
+"cancellation_policy" = "Cancellation Policy";
+"sign_out" = "Logout";
+
+"location_permission_title" = "Allow Location";
+"location_permission_description" = "We will need your location to give you a better experience";
+"notification_permission_title" = "Don't Miss Out";
+"notification_permission_description" = "Receive notification";
+"permission_allow" = "Allow";
+"permission_not_now" = "Not Now";
+
+"sessions" = "Sessions";
+"pending" = "Pending";
+"confirmed" = "Confirmed";
+"more_info" = "More Info";
+"pay_now" = "Pay Now";
+
+"messages" = "Messages";

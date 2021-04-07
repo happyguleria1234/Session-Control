@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SessionControl' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TracksFinder
+pod 'AssistantKit', '~> 0.6.1'
+pod 'IQKeyboardManagerSwift', '~> 6.5.1'
+pod 'Localize-Swift', '~> 3.1.0'
+pod 'Alamofire', '~> 4.8.1'
+pod 'lottie-ios', '~> 3.1.6'
+pod 'SDWebImage', '~> 4.4.5'
+pod 'KRPullLoader'
+pod 'UITextView+Placeholder', '~> 1.4.0'
+#pod 'Firebase/MLVision'
+#pod 'Firebase/MLVisionObjectDetection'
+#pod 'TensorFlowLiteSwift'
+pod 'pop', '~> 1.0.12'
+pod 'Toucan'
+
+#facebook sign in
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+
+#google sign in
+pod 'GoogleSignIn'
+
+#apple sign in
+pod 'AppleSignIn'
+
+# crashlytics and analytics
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+
+# Messages
+pod 'MessageKit', '~> 3.6.0' #Swift 4.2
+pod 'MessageInputBar', '~> 0.4.1'
+pod 'Kingfisher'
+
+end

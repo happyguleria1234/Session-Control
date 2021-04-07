@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RequestCell" rowHeight="91" id="KGk-i7-Jjw" customClass="RequestCell" customModule="Animal_Tracks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Jq5-rv-9xz">
+                        <rect key="frame" x="16" y="19.5" width="52" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Jq5-rv-9xz" secondAttribute="height" multiplier="1:1" id="35A-Kf-XUw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpR-sQ-mW6" customClass="SCRegularLabel" customModule="Animal_Tracks" customModuleProvider="target">
+                        <rect key="frame" x="84" y="23.5" width="66" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-bh-dHC">
+                        <rect key="frame" x="84" y="45" width="66" height="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="a33-CQ-Gsz"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9 Jan, 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnI-BO-RKl" customClass="SCRegularLabel" customModule="Animal_Tracks" customModuleProvider="target">
+                        <rect key="frame" x="84" y="51" width="66" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9v-UE-2W9" customClass="SCRequestView" customModule="Animal_Tracks" customModuleProvider="target">
+                        <rect key="frame" x="266" y="33" width="66" height="25"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcj-Ie-5Hw" customClass="SCRegularLabel" customModule="Animal_Tracks" customModuleProvider="target">
+                                <rect key="frame" x="10" y="5" width="46" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Pending"/>
+                        <constraints>
+                            <constraint firstItem="bcj-Ie-5Hw" firstAttribute="leading" secondItem="L9v-UE-2W9" secondAttribute="leading" constant="10" id="CoB-ie-Yo0"/>
+                            <constraint firstAttribute="bottom" secondItem="bcj-Ie-5Hw" secondAttribute="bottom" constant="5" id="ZqR-nb-d4S"/>
+                            <constraint firstAttribute="trailing" secondItem="bcj-Ie-5Hw" secondAttribute="trailing" constant="10" id="ilC-bq-w1R"/>
+                            <constraint firstItem="bcj-Ie-5Hw" firstAttribute="top" secondItem="L9v-UE-2W9" secondAttribute="top" constant="5" id="rJn-yy-LMl"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ww6-Ch-GsG">
+                        <rect key="frame" x="84" y="90" width="264" height="1"/>
+                        <color key="backgroundColor" red="0.92919379469999996" green="0.93333435060000003" blue="0.93734973669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="5nv-mc-zMM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VnI-BO-RKl" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Jq5-rv-9xz" secondAttribute="bottom" id="0zz-bv-obR"/>
+                    <constraint firstItem="M7h-bh-dHC" firstAttribute="top" secondItem="bpR-sQ-mW6" secondAttribute="bottom" constant="2" id="30x-je-y46"/>
+                    <constraint firstAttribute="trailing" secondItem="Ww6-Ch-GsG" secondAttribute="trailing" id="4EV-kv-K3a"/>
+                    <constraint firstItem="L9v-UE-2W9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4or-Ae-rsn"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Jq5-rv-9xz" secondAttribute="bottom" constant="16" id="785-7L-lnS"/>
+                    <constraint firstItem="M7h-bh-dHC" firstAttribute="centerY" secondItem="Jq5-rv-9xz" secondAttribute="centerY" id="7kr-8K-JBd"/>
+                    <constraint firstItem="bpR-sQ-mW6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Jq5-rv-9xz" secondAttribute="top" id="CQF-FX-JPT"/>
+                    <constraint firstItem="bpR-sQ-mW6" firstAttribute="leading" secondItem="M7h-bh-dHC" secondAttribute="leading" id="Ct0-YC-rH9"/>
+                    <constraint firstItem="Jq5-rv-9xz" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.15" id="IX5-RE-NI5"/>
+                    <constraint firstAttribute="trailing" secondItem="L9v-UE-2W9" secondAttribute="trailing" constant="16" id="KNx-hB-hqw"/>
+                    <constraint firstItem="VnI-BO-RKl" firstAttribute="leading" secondItem="M7h-bh-dHC" secondAttribute="leading" id="OSo-Sk-XOa"/>
+                    <constraint firstItem="Jq5-rv-9xz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="UAj-Oa-2bs"/>
+                    <constraint firstItem="bpR-sQ-mW6" firstAttribute="trailing" secondItem="M7h-bh-dHC" secondAttribute="trailing" id="jdb-4w-GmI"/>
+                    <constraint firstItem="M7h-bh-dHC" firstAttribute="leading" secondItem="Jq5-rv-9xz" secondAttribute="trailing" constant="16" id="lfP-mr-NlA"/>
+                    <constraint firstItem="Jq5-rv-9xz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="mid-sn-ntM"/>
+                    <constraint firstAttribute="bottom" secondItem="Ww6-Ch-GsG" secondAttribute="bottom" id="nqQ-Ic-cHG"/>
+                    <constraint firstItem="VnI-BO-RKl" firstAttribute="top" secondItem="bpR-sQ-mW6" secondAttribute="bottom" constant="8" id="oNO-Sk-x64"/>
+                    <constraint firstItem="L9v-UE-2W9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="M7h-bh-dHC" secondAttribute="trailing" constant="16" id="sly-uU-Qv7"/>
+                    <constraint firstItem="Ww6-Ch-GsG" firstAttribute="leading" secondItem="M7h-bh-dHC" secondAttribute="leading" id="xXx-nd-98o"/>
+                    <constraint firstItem="VnI-BO-RKl" firstAttribute="trailing" secondItem="M7h-bh-dHC" secondAttribute="trailing" id="zbl-3f-9SO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgAnimal" destination="Jq5-rv-9xz" id="Zar-Is-61o"/>
+                <outlet property="lblDate" destination="VnI-BO-RKl" id="9lz-Et-wmP"/>
+                <outlet property="lblName" destination="bpR-sQ-mW6" id="l49-wI-v47"/>
+                <outlet property="lblStatus" destination="bcj-Ie-5Hw" id="kLb-FG-BRD"/>
+                <outlet property="viewRequest" destination="L9v-UE-2W9" id="JPd-An-gjj"/>
+            </connections>
+            <point key="canvasLocation" x="36.231884057971016" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_placeholder" width="80" height="80"/>
+        <namedColor name="Pending">
+            <color red="0.9309999942779541" green="0.68199998140335083" blue="0.30799999833106995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

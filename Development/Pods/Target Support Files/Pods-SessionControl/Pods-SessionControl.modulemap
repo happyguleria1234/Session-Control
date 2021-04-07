@@ -1,0 +1,6 @@
+framework module Pods_SessionControl {
+  umbrella header "Pods-SessionControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
